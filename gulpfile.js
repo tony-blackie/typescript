@@ -27,15 +27,15 @@ gulp.task('app', function(){
   var tsResult = gulp.src(['src/app/**/*.ts'])
     .pipe(sourcemaps.init())
     .pipe(ts({
-      // sortOutput: true,
-      // noImplicitAny: true,
-      // removeComments: true,
-      // preserveConstEnums: true,
-      // target: 'es5'
+      sortOutput: true,
+      noImplicitAny: true,
+      removeComments: true,
+      preserveConstEnums: true,
+      target: 'es5'
     }));
   return tsResult
     .pipe(concat('app.js'))
-    .pipe(sourcemaps.write('public/app/'))
+    .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('public/app/'))
 });
 

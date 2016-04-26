@@ -17,4 +17,4 @@ var AdminPage = (function () {
 var adminPage = new AdminPage();
 adminPage.destroyUniverse();
 
-//# sourceMappingURL=public/app/app.js.map
+//# sourceMappingURL=app.js.map

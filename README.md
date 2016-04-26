@@ -2,8 +2,6 @@
 
 #### This boilerplate includes:
 ```
-angular
-ui-router
 express
 json mocks for backend
 gulp
@@ -26,6 +24,7 @@ phantomjs
 ```
 1. Run tests: karma start
 2. Rebuild app and run server: gulp
+Go to localhost:3000
 ```
 
 ### Troubleshooting
